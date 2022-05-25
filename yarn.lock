@@ -1448,9 +1448,6 @@
     eslint-plugin-react-native "3.6.0"
     prettier "1.16.4"
 
-"@react-native-community/slider@file:src":
-  version "4.2.2"
-
 "@react-native-windows/cli@0.65.3":
   version "0.65.3"
   resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.65.3.tgz#948f378b878a8ffc26e57a9dcdbf1f13022a596c"
