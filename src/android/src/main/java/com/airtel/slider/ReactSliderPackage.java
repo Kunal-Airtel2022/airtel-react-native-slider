@@ -1,4 +1,4 @@
-package com.reactnativecommunity.slider;
+package com.airtel.slider;
 
 import java.util.Arrays;
 import java.util.Collections;

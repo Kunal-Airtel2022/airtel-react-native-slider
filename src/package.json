@@ -1,20 +1,15 @@
 {
-  "name": "@react-native-community/slider",
+  "name": "airtel-rn-slider",
   "version": "4.2.2",
   "license": "MIT",
-  "author": "react-native-community",
-  "homepage": "https://github.com/callstack/react-native-slider#readme",
+  "author": "Kunal Farmah",
+  "homepage": "https://github.com/Kunal-Airtel2022/airtel-react-native-slider/readme",
   "description": "React Native component used to select a single value from a range of values.",
   "publishConfig": {
     "access": "public"
   },
   "main": "dist/Slider.js",
   "types": "typings/index.d.ts",
-  "keywords": [
-    "react-native",
-    "react native",
-    "slider"
-  ],
   "scripts": {
     "prepare": "babel --out-dir dist js"
   },
@@ -39,6 +34,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/callstack/react-native-slider.git"
+    "url": "https://github.com/Kunal-Airtel2022/airtel-react-native-slider.git"
   }
 }
