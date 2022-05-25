@@ -1,8 +1,8 @@
 <p align="center">
-  <h1 align="center"> <code>@react-native-community/slider</code> </h1>
+  <h1 align="center"> <code>airtel-rn-slider</code> </h1>
 </p>
 <p align="center">
-    <a href="https://www.npmjs.com/package/@react-native-community/slider">
+    <a href="https://www.npmjs.com/package/airtel-rn-slider">
         <img src="https://img.shields.io/npm/v/@react-native-community/slider.svg" alt="Latest version released on npmjs" />
     </a>
     <a href="https://app.circleci.com/pipelines/github/callstack/react-native-slider?branch=main">
@@ -22,24 +22,24 @@
 
 |iOS|Android|Windows|
 |:-:|:-:|:-:|
-|![iOS Screenshot](https://raw.githubusercontent.com/callstack/react-native-slider/main/.github/Examples/Slider-iOS-Example.gif)|![Android Screenshot](https://raw.githubusercontent.com/callstack/react-native-slider/master/.github/Examples/Slider-Android-Example.gif)|![Windows Screenshot](https://raw.githubusercontent.com/callstack/react-native-slider/main/.github/Examples/Slider-Windows-Example.gif)|
+|![iOS Screenshot](.github/Examples/Slider-iOS-Example.gif)|![Android Screenshot](.github/Examples/Slider-Android-Example.gif)|![Windows Screenshot](.github/Examples/Slider-Windows-Example.gif)|
 
 ## Installation & Usage
 
 To install this module `cd` to your project directory and enter the following command:
 ```
-yarn add @react-native-community/slider
+yarn add airtel-rn-slider
 ```
 or
 ```
-npm install @react-native-community/slider --save
+npm install airtel-rn-slider --save
 ```
 If using iOS please remember to install cocoapods by running: `npx pod-install`
 <br/>For web support please use `@react-native-community/slider@next`
 
 The following code presents the basic usage scenario of this library:
 ```javascript
-import Slider from '@react-native-community/slider';
+import Slider from 'airtel-rn-slider';
 
 <Slider
   style={{width: 200, height: 40}}
@@ -66,18 +66,17 @@ import { Slider } from 'react-native';
 to:
 
 ```javascript
-import Slider from '@react-native-community/slider';
+import Slider from 'airtel-rn-slider';
 ```
 
 ## React Native Compatibility
 To use this library you need to ensure you are using the correct version of React Native.
 
-| `@react-native-community/slider` version | Required React Native Version |
+| `airtel-rn-slider` version | Required React Native Version |
 | ---------------------------------------- | ----------------------------- |
-| `4.x.x`                                  | `>=0.60`; `>=0.62` (on Windows);  |
-| `3.1.x`                                  | `>=0.60`                      |
-| `2.x.x`                                  | `>= 0.60`                     |
-| [`1.x.x`](https://github.com/react-native-community/react-native-slider/tree/937f0942f1fffc6ed88b5cf7c88d73b7878f00f0)  | `<= 0.59` |
+| `1.x.x`                                  | `>=0.60`; `>=0.62` (on Windows);  |
+| `1.x.x`                                  | `>=0.60`                      |
+| `1.x.x`                                  | `>= 0.60`                     |
 
 
 ## Properties
@@ -121,7 +120,7 @@ yarn validate:flow
 yarn validate:eslint --fix
 yarn test:jest
 ```
-or 
+or
 ```sh
 yarn test
 ```
@@ -130,12 +129,12 @@ to run them all.
 
 When [creating an issue](https://github.com/callstack/react-native-slider/issues/new/choose) please remember to specify the platform which the issue occurs on.
 
-## Running the example app 
+## Running the example app
 While developing, you can run the example app to test your changes.
 
 ### Setup
 
-- Clone the repository 
+- Clone the repository
 - Run `yarn` in the root directory to install dependencies, and again in `src` to create the dist build.
 - (on iOS) Run `npx pod-install` from the `example` directory
 - (on Windows) You need to manually link the Slider module to your project.
