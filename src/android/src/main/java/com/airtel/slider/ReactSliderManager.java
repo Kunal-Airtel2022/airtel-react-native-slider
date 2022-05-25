@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-package com.reactnativecommunity.slider;
+package com.airtel.slider;
 
 import android.graphics.PorterDuffColorFilter;
 import android.os.Build;
