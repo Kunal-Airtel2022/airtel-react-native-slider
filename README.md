@@ -120,7 +120,7 @@ yarn validate:flow
 yarn validate:eslint --fix
 yarn test:jest
 ```
-or 
+or
 ```sh
 yarn test
 ```
@@ -129,12 +129,12 @@ to run them all.
 
 When [creating an issue](https://github.com/callstack/react-native-slider/issues/new/choose) please remember to specify the platform which the issue occurs on.
 
-## Running the example app 
+## Running the example app
 While developing, you can run the example app to test your changes.
 
 ### Setup
 
-- Clone the repository 
+- Clone the repository
 - Run `yarn` in the root directory to install dependencies, and again in `src` to create the dist build.
 - (on iOS) Run `npx pod-install` from the `example` directory
 - (on Windows) You need to manually link the Slider module to your project.
