@@ -2,7 +2,7 @@
   <h1 align="center"> <code>airtel-rn-slider</code> </h1>
 </p>
 <p align="center">
-  <h1 align="center"> Forked from <code>a@react-native-community/slider</code> with some bug fixes </h1>
+  <h1 align="center"> Forked from <code>@react-native-community/slider</code> with some bug fixes </h1>
 </p>
 <p align="center">
     <a href="https://www.npmjs.com/package/airtel-rn-slider">
@@ -31,18 +31,18 @@
 
 To install this module `cd` to your project directory and enter the following command:
 ```
-yarn add airtel-rn-slider
+yarn add @react-native-community/slider
 ```
 or
 ```
-npm install airtel-rn-slider --save
+npm install @react-native-community/slider --save
 ```
 If using iOS please remember to install cocoapods by running: `npx pod-install`
 <br/>For web support please use `@react-native-community/slider@next`
 
 The following code presents the basic usage scenario of this library:
 ```javascript
-import Slider from 'airtel-rn-slider';
+import Slider from '@react-native-community/slider';
 
 <Slider
   style={{width: 200, height: 40}}
@@ -69,7 +69,7 @@ import { Slider } from 'react-native';
 to:
 
 ```javascript
-import Slider from 'airtel-rn-slider';
+import Slider from '@react-native-community/slider';
 ```
 
 ## React Native Compatibility
