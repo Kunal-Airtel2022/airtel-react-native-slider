@@ -2,6 +2,9 @@
   <h1 align="center"> <code>airtel-rn-slider</code> </h1>
 </p>
 <p align="center">
+  <h1 align="center"> Forked from <code>a@react-native-community/slider</code> with some bug fixes </h1>
+</p>
+<p align="center">
     <a href="https://www.npmjs.com/package/airtel-rn-slider">
         <img src="https://img.shields.io/npm/v/@react-native-community/slider.svg" alt="Latest version released on npmjs" />
     </a>
